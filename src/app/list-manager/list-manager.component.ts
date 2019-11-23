@@ -29,7 +29,6 @@ export class ListManagerComponent implements OnInit {
 
 
   addItem(title: string) {
-    console.log('Workss!!');
     this.todoListService.addItem({ title });
 }
 }
